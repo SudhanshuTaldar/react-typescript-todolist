@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
+import { FC } from "react";
+import "./App.css";
+import TodoTask from "./Components/TodoTask";
 
-function App() {
+const App: FC = () => {
   return (
-    <div className="App">
-     hello
-    </div>
-  );
-}
+    <TodoTask />
+  )
+};
 
 export default App;
